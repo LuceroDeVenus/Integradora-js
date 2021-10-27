@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integradora 2160</title>
+    <link rel="icon" href="./img/codoacodo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./img/codoacodo.png" alt="logo codo a codo" width="100px" height="60px" class="d-inline-block align-text">
+            Conf Bs As
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+              <a class="nav-link" href="#">Los oradores</a>
+              <a class="nav-link" href="#">El lugar y la fecha</a>
+              <a class="nav-link" href="#">Conviértete en orador</a>
+              <a class="nav-link text-success" onclick="comprarTickets()">Comprar tickets</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main>
+   <section id="section">
+      <!--imagen principal-->
+  
+      <div class="card bg-dark text-white">
+        <img src="./img/ba1.jpg" class="principal">
+              <div id="textoprin" class="card-img-overlay text-end">
+          <h5 class="card-title fs-2">Conf Bs As</h5>
+          <p class="card-text fs-6">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para tí. Te esperamos!</p>
+          <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
+          <button type="button" id="comprar" class="btn btn-success boton2" onclick="comprarTickets()">Comprar tickets
+        </button>
+        </div>
+    </div>
+
+ <!--Cards-->
+ <div class="container-fluid">
+  <div class="row">
+      <div class="text-uppercase text-center mt-2">
+      <h6>conoce a los</h6> <h1>oradores</h1></div>
+      <div class="row">
+      <div class="card-deck d-inline-flex justify-content-center mb-5">
+
+        <!--Steve Jobs-->
+          <div id="lascard" class="card col-3">
+              <img src="./img/steve.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <button type="button" class="btn btn-warning btn-sm"><b>JavaScript</b></button>  <button type="button" id="react" class="btn btn-info btn-sm"><b>React</b></button>
+                <h5 class="card-title">Steve Jobs</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente mollitia, doloribus accusamus sint labore nemo quibusdam ab, a deserunt est quia facilis, vero blanditiis repellat quas obcaecati fugit porro! Reprehenderit!</p>
+              </div>
+          </div>
+
+          <!--Bill Gates-->
+          <div id="lascard" class="card col-3">
+            <img src="./img/bill.jpg" class="card-img-top" alt="...">
+            <div class="card-body">             
+               <button type="button" class="btn btn-warning btn-sm"><b>JavaScript</b></button>  <button type="button" id="react" class="btn btn-info btn-sm"><b>React</b></button>
+                <h5 class="card-title">Bill Gates</h5>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga fugit ipsa iusto expedita, nihil sunt vel eaque libero odio aut, nostrum eveniet perferendis ullam maxime neque id similique, voluptate beatae!</p>
+            </div>
+          </div>
+
+          <!--Ada Lovelace-->
+          <div id="lascard" class="card col-3">
+            <img src="./img/ada.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">            
+              <button type="button" class="btn btn-secondary btn-sm"><b>Negocios</b></button>  <button type="button" class="btn btn-danger btn-sm"><b>Startups</b></button>
+              <h5 class="card-title">Ada Lovelace</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam odio ipsam minima amet quisquam totam enim omnis? Perspiciatis deleniti cum aliquid recusandae sapiente aliquam velit, quod enim vero quo ipsa.</p>
+             </div>
+          </div>
+        </div>
+        </div>
+  </div>
+</div> 
+
+<!--imagen con texto al aldo-->
+<div class="container-fluid">  
+  <div class="row">
+    <div class="col">
+            <img src="./img/honolulu.jpg" alt="playa" class="img-fluid">
+        </div>
+    <div id="bsasinfo" class="col">
+            <h4>Bs As - Octubre</h4>
+            <p class="fs-6">
+                Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad condado consolidada que cubre toda la ciudad (aproximadamente 600km² de superficie). </p>
+            
+                <button type="button" class="btn btn-outline-light">Conocé más </button>
+            
+        </div>
+    </div>
+  </div>
+      <div class="text-uppercase text-center mt-4">
+        <h6>conviertete en un</h6> <h1>orador</h1> </div>
+        <div class="fs-9 text-center"> 
+            <p>Anótate como orador para dar una <abbr title="charla ignite">charla ignite</abbr>. Cuéntanos de qué quieres hablar!<br> </p>
+       
+        </div>
+
+  <!-- formulario -->
+  <div class="container">
+    <div class="row justify-content-center">
+            <div class="col-7">
+            <div class="row">
+                <div class="col ">
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                </div>
+            </div>
+            <div class="form mt-3">
+            <textarea class="form-control" placeholder="¿Sobre qué quieres hablar?" style="height: 90px"></textarea>
+            </div>
+            <small  class="form-text text-muted">Recordá incluir un título para tu charla.</small>
+            <div class="d-grid gap-2">
+                <button id="botenviar" class="btn mt-2 mb-3" type="button">Enviar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</main>
+   
+      </section>
+<!-- footer -->
+<footer>
+    <div class="footer p-2">
+    <div class="container">
+        <div class="row align-items-center justify-content-around ml-5">
+            <div class="col-1"><a class="links" href="#">Preguntas frecuentes</a></div>
+            <div class="col-1"><a class="links" href="#">Contáctanos</a></div>
+            <div class="col-1"><a class="links" href="#">Prensa</a></div>
+            <div class="col-1"><a class="links" href="#">Conferencias</a></div>
+            <div class="col-1"><a class="links" href="#">Términos y condiciones</a></div>
+            <div class="col-1"><a class="links" href="#">Privacidad</a></div>
+            <div class="col-1"><a class="links" href="#">Estudiantes</a></div>
+        </div>
+    </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="./apps.js"></script>
+</body>
+</html>
